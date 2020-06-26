@@ -6,3 +6,12 @@
 4. Hard disk file type - VDI (VirtualBox Disk Image)
 5. Storage on physical hard disk - Dynamically allocated
 6. 
+
+If option `Enable Nested VT-x/AMD-V` is grayed out on 'Processor' or 'Acceleration' tab, run below command on the command prompt.
+
+```
+VBoxManage modifyvm yourvirtualmachinename --nested-hw-virt on
+```
+
+
+
